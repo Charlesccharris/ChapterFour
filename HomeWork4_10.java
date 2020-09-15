@@ -1,3 +1,10 @@
+//1. Identify the problem
+//2. Copy and paste the code
+//3. Make sure code works
+//4. Identify what needs to be modified with Strings.
+//5. Make strings for the program
+//6. Check to make sure program works
+
 import java.util.Scanner;
 
 class HomeWork4_10{
@@ -8,35 +15,22 @@ class HomeWork4_10{
 
 	Scanner input = new Scanner(System.in);
 
+
+
 	String set1 =
-	" 1  3  5  7\n"+
-	" 9 11 13 15\n"+
-	"17 18 21 23\n"+
-	"25 27 29 31\n";
+	" 1  3  5  7\n 9 11 13 15\n17 18 21 23\n25 27 29 31\n";
 
 	String set2 =
-	" 2  3  6  7\n"+
-	"10 11 14 15\n"+
-	"18 19 22 23\n"+
-	"26 27 30 31\n";
+	" 2  3  6  7\n10 11 14 15\n18 19 22 23\n26 27 30 31\n";
 
 	String set3 =
-	" 4  5  6  7\n"+
-	"12 13 14 15\n"+
-	"20 21 22 23\n"+
-	"28 29 30 31\n";
+	" 4  5  6  7\n12 13 14 15\n20 21 22 23\n28 29 30 31\n";
 
 	String set4 =
-	" 8  9 10 11\n"+
-	"12 13 14 15\n"+
-	"24 25 26 27\n"+
-	"28 29 30 31\n";
+	" 8  9 10 11\n12 13 14 15\n24 25 26 27\n28 29 30 31\n";
 
 	String set5 =
-	"16 17 18 19\n"+
-	"20 21 22 23\n"+
-	"24 25 26 27\n"+
-	"28 29 30 31\n";
+	"16 17 18 19\n20 21 22 23\n24 25 26 27\n28 29 30 31\n";
 
 	int day = 0;
 
