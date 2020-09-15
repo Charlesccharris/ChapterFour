@@ -15,8 +15,6 @@ class HomeWork4_10{
 
 	Scanner input = new Scanner(System.in);
 
-
-
 	String set1 =
 	" 1  3  5  7\n 9 11 13 15\n17 18 21 23\n25 27 29 31\n";
 
@@ -34,44 +32,46 @@ class HomeWork4_10{
 
 	int day = 0;
 
+	char Yes = 'Y';
+
 	System.out.print("Is your birthday in Set1?\n");
 	System.out.print(set1);
-	System.out.print("\nEnter 0 for No and 1 for Yes: ");
-	int answer = input.nextInt();
+	System.out.print("\nEnter (Y)es or (N)o: ");
+	int answer = input.next().charAt(0);
 
-	if(answer == 1)
+	if(answer == Yes)
 	  day += 1;
 
 	System.out.print("Is your birthday in Set2?\n");
         System.out.print(set2);
-        System.out.print("\nEnter 0 for No and 1 for Yes: ");
-        answer = input.nextInt();
+        System.out.print("\nEnter (Y)es or (N)o: ");
+        answer = input.next().charAt(0);
 
-        if(answer == 1)
+        if(answer == Yes)
           day += 2;
 
 	System.out.print("Is your birthday in Set3?\n");
         System.out.print(set3);
-        System.out.print("\nEnter 0 for No and 1 for Yes: ");
-        answer = input.nextInt();
+        System.out.print("\nEnter (Y)es or (N)o: ");
+        answer = input.next().charAt(0);
 
-        if(answer == 1)
+        if(answer == Yes)
           day += 4;
 
 	System.out.print("Is your birthday in Set4?\n");
         System.out.print(set4);
-        System.out.print("\nEnter 0 for No and 1 for Yes: ");
-        answer = input.nextInt();
+        System.out.print("\nEnter (Y)es or (N)o: ");
+        answer = input.next().charAt(0);
 
-        if(answer == 1)
+        if(answer == Yes)
           day += 8;
 
 	System.out.print("Is your birthday in Set5?\n");
         System.out.print(set5);
-        System.out.print("\nEnter 0 for No and 1 for Yes: ");
-        answer = input.nextInt();
+        System.out.print("\nEnter (Y)es or (N)o: ");
+        answer = input.next().charAt(0);
 
-        if(answer == 1)
+        if(answer == Yes)
           day += 16;
 
 	System.out.println("\nYour birthday is " + day +"!");
