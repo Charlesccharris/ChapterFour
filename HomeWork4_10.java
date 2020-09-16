@@ -39,7 +39,7 @@ class HomeWork4_10{
 	System.out.print("\nEnter (Y)es or (N)o: ");
 	int answer = input.next().charAt(0);
 
-	if(answer == Yes)
+	if(Character.toUpperCase(answer) == Yes)
 	  day += 1;
 
 	System.out.print("Is your birthday in Set2?\n");
@@ -47,7 +47,7 @@ class HomeWork4_10{
         System.out.print("\nEnter (Y)es or (N)o: ");
         answer = input.next().charAt(0);
 
-        if(answer == Yes)
+        if(Character.toUpperCase(answer) == Yes)
           day += 2;
 
 	System.out.print("Is your birthday in Set3?\n");
@@ -55,7 +55,7 @@ class HomeWork4_10{
         System.out.print("\nEnter (Y)es or (N)o: ");
         answer = input.next().charAt(0);
 
-        if(answer == Yes)
+        if(Character.toUpperCase(answer) == Yes)
           day += 4;
 
 	System.out.print("Is your birthday in Set4?\n");
@@ -63,7 +63,7 @@ class HomeWork4_10{
         System.out.print("\nEnter (Y)es or (N)o: ");
         answer = input.next().charAt(0);
 
-        if(answer == Yes)
+        if(Character.toUpperCase(answer) == Yes)
           day += 8;
 
 	System.out.print("Is your birthday in Set5?\n");
@@ -71,7 +71,7 @@ class HomeWork4_10{
         System.out.print("\nEnter (Y)es or (N)o: ");
         answer = input.next().charAt(0);
 
-        if(answer == Yes)
+        if(Character.toUpperCase(answer) == Yes)
           day += 16;
 
 	System.out.println("\nYour birthday is " + day +"!");
