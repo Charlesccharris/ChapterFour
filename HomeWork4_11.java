@@ -4,7 +4,7 @@
 //4. Identify what needs to be modified
 //5. Make the modifications
 //6. Check to see if code works
-
+import java.util.Scanner;
 
 class HomeWork4_11{
 	public static void main(String[] args){
@@ -15,7 +15,27 @@ class HomeWork4_11{
 	Enter a decimal value (0 to 15): 5; The hex value is 5;
 	Enter a decimal value (0 to 15): 31 31 is an invalid input*/
 
-	System.out.println("Hi");
+	Scanner input = new Scanner(System.in);
+	String hexString = input.nextLine();
+
+	if(hexString.length() != 1){
+	  System.out.println("You must enter exactly one character");
+	  System.exit(1);
+	}
+
+	char ch = hexString.charAt(0);
+	if(ch <= 'F' && ch >= 'A'){
+	  int value = ch - 'A' + 10;
+	  System.out.println("The decimal value for hex digit " + ch + " is " + value);
+	}
+
+	else if(Character.isDigit(ch)){
+	  System.out.println("The decimal value for hex digit " + ch + " is " + ch);
+	}
+
+	else{
+	  System.out.println(ch + " is an invalid input");
+	}
 
 	}
 }
