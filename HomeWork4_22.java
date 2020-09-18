@@ -1,8 +1,8 @@
 //1. Identify the problem
-//2. Copy and paste code
-//3. Make sure code works
-//4. Identify what needs to be modified
-//5. Make the modifications
+//2. Read up on substrings
+//3. Code with constants
+//4. Make sure code works
+//5. Code inputs
 //6. Check to see if code works
 
 import java.util.Scanner;
@@ -22,9 +22,9 @@ class HomeWork4_22{
         String inputTwo = input.next();
 
         if(inputOne.contains(inputTwo))
-          System.out.println("\n" + inputTwo + " is a substring of " + inputOne);
+        	System.out.println("\n" + inputTwo + " is a substring of " + inputOne);
         else
-          System.out.println("\n" + inputTwo + " isn't a substring of " + inputOne);
+		System.out.println("\n" + inputTwo + " isn't a substring of " + inputOne);
 
         }
 }
